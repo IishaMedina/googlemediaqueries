@@ -33,6 +33,12 @@ ul.nav li {
 	margin: 5px 5px 0 0;
 	font-size: 13px;
 }
+
+nav li a{
+	position: relative;
+    display: block;
+    padding: 8px 8px 8px 8px;
+}
 .fa {
 	font-size: 20px;
 	vertical-align: top;
@@ -48,11 +54,14 @@ ul.nav li {
 }
 .share button {
 	background-color: #f2f2f2;
-	padding: 7px 15px;
 	cursor: default;
 	position: relative;
-	top: -3px;
+	
 }
+
+
+
+
 span.share:hover {
 	background-color: #E1E1E1;
 }
@@ -151,7 +160,7 @@ n can be a number, a keyword, or a formula. */
 ul.left li a,
 ul.right li a {
 	color: #666;
-	margin: 2px 10px 0;
+	margin: 0;
 	letter-spacing: 0.1px;
 	font-size: 18px;
 }
@@ -174,6 +183,7 @@ ul.right li a {
 @media screen and  (max-width: 608px) {
 	ul.right li a {
 		float: right;
+		margin: 0;
 	}
 
 @media screen and (max-width:596px) {
